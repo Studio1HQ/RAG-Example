@@ -1,9 +1,19 @@
-# Document Analysis Chatbot
+# Document and Database Analysis Chatbot
 
-This is a Streamlit-based chatbot application that uses Novita AI to analyze and answer questions about your documents. The application supports various file formats including TXT, PDF, DOCX, XLSX, XLS, and CSV files.
+This is a Streamlit-based chatbot application that uses Novita AI to analyze and answer questions about your business data from two primary sources:
+1.  **A collection of documents**: Supports various file formats including TXT, PDF, DOCX, XLSX, XLS, and CSV files.
+2.  **A SQL Database**: Connects to a SQL database to answer questions about structured data.
+
+## Problem Statement
+
+Business analytics is a critical but often complex task. While AI agents can significantly simplify this process, building and managing them can introduce new challenges. Developers often need to juggle multiple API keys and services for different Large Language Models (LLMs), embedding models, and GPU instances.
+
+This project uses Novita AI to provide a unified solution, offering a single, streamlined API to access a wide variety of AI models and infrastructure. By doing so, it simplifies the development of powerful business analytics tools, allowing you to focus on building intelligent agents without the overhead of managing disparate services.
 
 ## Features
 
+- **Hybrid Analysis**: Seamlessly queries both SQL databases and a variety of document formats.
+- **Natural Language to SQL**: Translates natural language questions into executable SQL queries.
 - Document analysis using Novita AI
 - Support for multiple file formats (TXT, PDF, DOCX, XLSX, XLS, CSV)
 - Interactive chat interface
