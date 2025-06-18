@@ -43,6 +43,13 @@ This project uses Novita AI to provide a unified solution, offering a single, st
 4. Click "Initialize Data Source" to load your documents
 5. Start asking questions about your documents in the chat interface
 
+## Demo
+
+https://github.com/user-attachments/assets/94b4f3fc-f7fb-4b62-8a08-006ec33e0a51
+
+https://github.com/user-attachments/assets/e87e6b5e-3643-4bf2-9d27-881e5d392e1b
+
+
 ## Supported File Types
 
 - Text files (.txt)
