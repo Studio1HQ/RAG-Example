@@ -1,14 +1,13 @@
 # Document and Database Analysis Chatbot
 
+Business analytics is a critical but often complex task. While AI agents can significantly simplify this process, building and managing them can introduce new challenges. Developers often need to juggle multiple API keys and services for different Large Language Models (LLMs), embedding models, and GPU instances.
+
+Novita AI comes with a unified solution, offering a single, streamlined API to access a wide variety of AI models and infrastructure. By doing so, it simplifies the development of powerful business analytics tools, allowing you to focus on building intelligent agents without the overhead of managing disparate services.
+
 This is a Streamlit-based chatbot application that uses Novita AI to analyze and answer questions about your business data from two primary sources:
 1.  **A collection of documents**: Supports various file formats including TXT, PDF, DOCX, XLSX, XLS, and CSV files.
 2.  **A SQL Database**: Connects to a SQL database to answer questions about structured data.
 
-## Problem Statement
-
-Business analytics is a critical but often complex task. While AI agents can significantly simplify this process, building and managing them can introduce new challenges. Developers often need to juggle multiple API keys and services for different Large Language Models (LLMs), embedding models, and GPU instances.
-
-This project uses Novita AI to provide a unified solution, offering a single, streamlined API to access a wide variety of AI models and infrastructure. By doing so, it simplifies the development of powerful business analytics tools, allowing you to focus on building intelligent agents without the overhead of managing disparate services.
 
 ## Features
 
@@ -43,11 +42,9 @@ This project uses Novita AI to provide a unified solution, offering a single, st
 4. Click "Initialize Data Source" to load your documents
 5. Start asking questions about your documents in the chat interface
 
-## Supported File Types
 
-- Text files (.txt)
-- PDF documents (.pdf)
-- Word documents (.docx)
-- Excel spreadsheets (.xlsx, .xls)
-- CSV files (.csv)
+#### Asking question from Database
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750271252726/3IQ7aZery.gif?auto=format)
 
+#### Asking question from Document
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750271229283/Oa336cKx4.gif?auto=format)
