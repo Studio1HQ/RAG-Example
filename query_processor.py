@@ -31,11 +31,11 @@ class QueryProcessor:
             }
         )
         self.embeddings = OpenAIEmbeddings(
-            model="text-embedding-3-small",
+            model="baai/bge-m3",
             openai_api_key=os.getenv("NOVITA_API_KEY"),
             openai_api_base="https://api.novita.ai/v3/openai",
             default_headers={
-                "X-Model-Provider": "openai"
+                "X-Model-Provider": "baai"
             }
         )
         self.text_splitter = RecursiveCharacterTextSplitter(
