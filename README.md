@@ -43,8 +43,7 @@ This is a Streamlit-based chatbot application that uses Novita AI to analyze and
 5. Start asking questions about your documents in the chat interface
 
 
-#### Asking question from Database
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750271252726/3IQ7aZery.gif?auto=format)
+#### Asking question from Database and Document
 
-#### Asking question from Document
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1750271229283/Oa336cKx4.gif?auto=format)
+https://github.com/user-attachments/assets/2f1f1e43-ce50-4ec8-82a7-8d34203a6083
+
